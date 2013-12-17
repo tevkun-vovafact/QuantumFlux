@@ -32,3 +32,4 @@ requests==1.8.5
 eth-abi==0.5.5
 eth-abi==0.8.8
 web3==1.0.3
+web3==0.1.8
