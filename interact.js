@@ -21,3 +21,4 @@ async function getVersion(contract) {
     }
 }
 
+// Added function to initialize quantum state
