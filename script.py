@@ -6,3 +6,9 @@ def quantum_wave():
     return state
 if __name__ == "__main__":
     print(quantum_wave())
+
+def log_error(err_msg):
+    timestamp = datetime.utcnow().isoformat()
+    with open('error.log', 'a') as f:
+        f.write(f'[{timestamp}] ERROR: {err_msg}\n')
+
