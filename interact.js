@@ -10,3 +10,14 @@ async function leapQuantum(amount, fromAddress) {
 }
 
 module.exports = { leapQuantum };
+
+async function getVersion(contract) {
+    try {
+        const version = await contract.methods.getVersion().call();
+        console.log('Contract version:', version);
+        return version;
+    } catch (error) {
+        console.error('Error getting version:', error);
+    }
+}
+
