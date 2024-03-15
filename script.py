@@ -21,3 +21,11 @@ function logMessage(msg) {
 
 // Updated with quantum algorithm tweak
 // Refactored quantum entanglement logic with comments
+
+try:
+    response = requests.get(api_url, timeout=10)
+    response.raise_for_status()
+except requests.exceptions.RequestException as e:
+    print(f"Network error: {e}")
+    return None
+
