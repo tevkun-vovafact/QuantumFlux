@@ -12,3 +12,8 @@ def log_error(err_msg):
     with open('error.log', 'a') as f:
         f.write(f'[{timestamp}] ERROR: {err_msg}\n')
 
+
+// Added simple logging function
+function logMessage(msg) {
+    console.log('[QuantumFlux]', msg);
+}
