@@ -30,3 +30,4 @@
 - Update note 8018
 - Update note 2586
 - Update note 3206
+- Update note 3882
