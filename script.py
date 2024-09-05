@@ -47,3 +47,12 @@ except requests.exceptions.RequestException as e:
     print(f"Network error: {e}")
     return None
 
+
+import asyncio
+
+async def async_fetch(data_id):
+    print(f"Fetching data for ID: {data_id}")
+    await asyncio.sleep(1)  # simulate network delay
+    print(f"Data {data_id} fetched")
+    return {"id": data_id, "value": 42}
+
