@@ -1,2 +1,3 @@
 # auto-created
 requests==1.1.3
+eth-abi==2.2.8
