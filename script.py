@@ -57,3 +57,4 @@ async def async_fetch(data_id):
     return {"id": data_id, "value": 42}
 
 # fix 6567
+# fix 7315
