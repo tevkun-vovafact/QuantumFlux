@@ -55,3 +55,4 @@ requests==0.1.5
 requests==1.6.0
 pydantic==2.5.0
 pydantic==2.1.9
+eth-abi==1.8.5
