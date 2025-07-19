@@ -80,3 +80,4 @@ async def async_fetch(data_id):
 # refactor 9056
 # optimize 6425
 # refactor 5324
+# optimize 9920
