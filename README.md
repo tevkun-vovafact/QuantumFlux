@@ -14,3 +14,4 @@
 - Update note 2006
 - Update note 7710
 - Update note 5684
+- Update note 8287
